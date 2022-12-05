@@ -1,4 +1,5 @@
-app/*.json
+*.json
+*.txt
 app-gcp-run/*.json
 output/
 digi_logo.jpg

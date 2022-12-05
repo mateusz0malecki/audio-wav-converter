@@ -12,6 +12,11 @@ class ExtensionException(Exception):
 
 
 def convert_to_wav_and_save_file(filepath: str):
+    """
+    Func to convert given audio file to WAV extension and save it as new file.
+    :param filepath: path to local audio file in .mp3, .mp4 or .m4a extension
+    :return: path to converted WAV file
+    """
     extension_list = ("mp4", "mp3", "m4a")
     filename = filepath.split("\\")[-1]
     dir_ = filepath.replace(filename, '')
