@@ -32,7 +32,7 @@ def convert_to_wav_and_save_file(filepath: str):
     raise ExtensionException
 
 
-title = "digimonkeys.com converter"
+title = "WAV converter"
 msg = """
 Welcome to WAV converter. 
 Supported audio extensions: MP4, MP3, M4A. 
